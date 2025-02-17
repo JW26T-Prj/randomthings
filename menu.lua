@@ -2,8 +2,8 @@ data={};
 
 function eventNewPlayer(name)
 	newData={
-			["opened"]=false;
-			};		
+	["opened"]=false;
+	};		
  	data[name] = newData;
 	ui.addTextArea(299,"<p align='center'><a href='event:show_menu'><font size='18'>Menu",n,725,22,70,24,0x000001,0x000001,0.75,true)
 end
