@@ -7,34 +7,32 @@ system.disableChatCommandDisplay(nil, true)
 
 function showWater(name)
 	for i=0,11 do
-		tfm.exec.addImage("192e019c182.png", "?-1", -1200+(i*1017), 1175, name, 1, 1, 0, 1)
-		tfm.exec.addImage("192e019c182.png", "?-1", -1200+(i*1017), 2150, name, 1, -2, 0, 1)
+		tfm.exec.addImage("192e019c182.png", "?-1", -1200+(i*1017), 1155, name, 1, 1, 0, 1)
+		tfm.exec.addImage("192e019c182.png", "?-1", -1200+(i*1017), 2130, name, 1, -2, 0, 1)
 	end
 
-	tfm.exec.addImage("192e017f5a8.png", "!-1", -1200, 99, name,28,8,0,1)
+	tfm.exec.addImage("192e017f5a8.png", "!-1", -1200, 825, name,28,8,0,1)
 	for _,i in next,{0,2,4} do
-		tfm.exec.addImage("192e0181ef2.png", "?1", -1200+(i*2400), 700, name) 
-		tfm.exec.addImage("192e0184530.png", "?1", -600+(i*2400), 700 name) 
-		tfm.exec.addImage("192e0186807.png", "?1", i*2400, 700, name) 
-		tfm.exec.addImage("192e018872a.png", "?1", 600+(i*2400), 700, name)
+		tfm.exec.addImage("192e0181ef2.png", "?1", -1200+(i*2400), 800, name) 
+		tfm.exec.addImage("192e0184530.png", "?1", -600+(i*2400), 800, name) 
+		tfm.exec.addImage("192e0186807.png", "?1", i*2400, 800, name) 
+		tfm.exec.addImage("192e018872a.png", "?1", 600+(i*2400), 800, name)
 	end
 	for _,i in next,{1,3,5} do
-		tfm.exec.addImage("192e018872a.png", "?1", -600+(i*2400), 700, name,-1,1)
-		tfm.exec.addImage("192e0186807.png", "?1", i*2400, 700, name,-1,1) 
-		tfm.exec.addImage("192e0184530.png", "?1", 600+(i*2400), 700, name,-1,1) 
-		tfm.exec.addImage("192e0181ef2.png", "?1", 1200+(i*2400), 700, name,-1,1)
+		tfm.exec.addImage("192e018872a.png", "?1", -600+(i*2400), 800, name,-1,1)
+		tfm.exec.addImage("192e0186807.png", "?1", i*2400, 800, name,-1,1) 
+		tfm.exec.addImage("192e0184530.png", "?1", 600+(i*2400), 800, name,-1,1) 
+		tfm.exec.addImage("192e0181ef2.png", "?1", 1200+(i*2400), 800, name,-1,1)
 	end
-	for _,i in next,{0,2,4,6,8} do
-		tfm.exec.addImage("192e01770df.png", "?1", -1200+(i*2400), 589, name)
-		tfm.exec.addImage("192e017b00d.png", "!-1", -1200+(i*2400), 589, name,1,1)
+	for _,i in next,{0,2,4,6} do
+		tfm.exec.addImage("192e01770df.png", "?1", -1200+(i*2400), 689, name)
+		tfm.exec.addImage("192e017b00d.png", "!-1", -1200+(i*2400), 689, name,1,1)
 	end
-	for _,i in next,{1,3,5,7,9} do
- 		tfm.exec.addImage("192e01770df.png", "?1", 1200+(i*2400), 589, name, -1, 1)
-		tfm.exec.addImage("192e017b00d.png", "!-1", 1200+(i*2400), 589, name, -1, 1,0,0.9)
+	for _,i in next,{1,3,5,7} do
+ 		tfm.exec.addImage("192e01770df.png", "?1", 1200+(i*2400), 689, name, -1, 1)
+		tfm.exec.addImage("192e017b00d.png", "!-1", 1200+(i*2400), 689, name, -1, 1,0,0.9)
 	end
-
-	tfm.exec.addImage("192e018e5fd.png","?1",-1200,-1000,name,50,3,0,0.5) 
-	ui.setBackgroundColor("#1B622B")
+	tfm.exec.addImage("17e937f4f5a.png","?1",-800,-1735,name,30,0.7)
 end
 function resetMap()
 	changed=true
