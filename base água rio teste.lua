@@ -49,7 +49,6 @@ function showWater(name)
 		tfm.exec.addImage("19650c6ee85.png", "!-10", 1200+(i*2400), y_factor-31, name, -1, 1,0,1)
 	end
 	for i=0,15 do tfm.exec.addImage("192e019006a.png","?0",-1200+(i*750),632,name,1,1,0,1) end
-	for i=0,7 do tfm.exec.addImage("19650c77d14.png","?1",-1200+(i*1599),632,name,1,1,0,1) end
 	tfm.exec.addImage("192e018e5fd.png","?1",-1200,-1000,name,50,3,0,0.2) 
 	ui.setBackgroundColor("#1C381A")
 end
