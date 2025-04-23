@@ -18,7 +18,7 @@ function showWater(name)
 		tfm.exec.addImage("189746fe3a4.png", "?-1", -1200+(i*2000), 3730, name, 1, 1, 0, 1)
 		tfm.exec.addImage("189746fe3a4.png", "?-1", -1200+(i*2000), 4270, name, 1, -2, 0, 1)
 	end
-	tfm.exec.addImage("19650c70348.png", "!-20", -1200, y_factor+23, name,50,20,0,1.06)
+	tfm.exec.addImage("19650c70348.png", "!-20", -1200, y_factor+23, name,50,20,0,1)
 	for _,i in next,{0,2,4} do
 		tfm.exec.addImage("192e0181ef2.png", "?1", -1200+(i*2400), y_factor+30, name) 
 		tfm.exec.addImage("192e0184530.png", "?1", -600+(i*2400), y_factor+30, name) 
